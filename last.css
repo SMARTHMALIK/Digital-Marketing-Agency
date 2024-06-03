@@ -1,0 +1,55 @@
+
+.container-stats{
+  display: flex;
+  height: 300px;
+}
+.card-stats {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 250px;
+    height: 220px;
+    cursor: pointer;
+}
+
+.card-stats:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    background-color: #f5f5f5;
+}
+
+p {
+    font-size: 15px;
+    color: gray;
+    
+}
+.stats{
+  font-size: 50px;
+  color: black;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.growth-page{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: rgb(244, 244, 244);
+  padding-top: 20px ;
+}
+.title-growth{
+  font-size: 20px;
+  color: #f9265b;
+  margin-bottom: 0px;
+}
+.goodtitle{
+  font-size: 40px;
+  font-weight: 600;
+  color: black;
+}

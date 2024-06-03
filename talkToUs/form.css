@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e6e6e6;
+}
+
+.container {
+  width: 600px;
+  height: 500px;
+  margin: 50px auto;
+  background-color: #fff;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.15);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+  margin-bottom: 20px;
+  position: relative;
+}
+.checkbox-section{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  vertical-align: top;
+  margin-bottom: 20px;
+}
+.agree-terms-label{
+  font-size: 16px;
+  color: #6c6b6b;
+  line-height: 20px;
+  padding-top: 20px;
+}
+.your-name{
+  display:flex ;
+}
+
+.label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+  color: #000000;
+  transition: 0.2s ease-in-out;
+  pointer-events: none;
+  opacity: 0;
+}
+
+input[type="text"]:focus + .label,
+input[type="email"]:focus + .label {
+  opacity: 1;
+  top: -20px;
+  font-size: 14px;
+  color: #333;
+}
+
+input[type="text"]:not(:placeholder-shown) + .label,
+input[type="email"]:not(:placeholder-shown) + .label {
+  opacity: 1;
+  top: -20px;
+  font-size: 18px;
+  color: #333;
+}
+
+input[type= checkbox] {
+  margin-right: 5px;
+  padding-inline: 20px;
+}
+
+button[type="submit"] {
+  font-size: 16px;
+  background-color: #ff2a58;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+  padding:15px 250px;
+}
+
+button[type="submit"]:hover {
+  background-color: #ff0051;
+}
+  .first-name,
+  .last-name,
+  .work-email{
+    color: #cfcfcf;
+    border: none;
+    border-bottom:lightblue solid 1px;
+    padding-bottom: 10px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    width: 90%;
+  }

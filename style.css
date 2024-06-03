@@ -1,0 +1,27 @@
+
+body{
+    
+    margin: 0;
+    margin-bottom: -5000px;
+    padding:0 ;
+    overflow-x: hidden;
+}
+body.img{
+ border-radius: 15px;  
+ box-shadow: 1px 1px 15px rgba(0,0,0,0.4); 
+}
+.card-body1{
+    background-color: #eee;
+    cursor: pointer;
+}
+.card-body1:active,
+.card-body1:hover{
+    background-color: #f9265b;
+    color: white;
+}
+.card-text1{
+    color: rgb(165, 165, 165);
+}   
+.card-text1:hover{
+    color: white;
+}
