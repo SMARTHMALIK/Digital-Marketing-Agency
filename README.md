@@ -1,4 +1,4 @@
-# YouTube Clone (HTML/CSS Version)
+# Digital Marketing Agency (HTML/CSS / JavaScript/Bootstap Version)
 [Direct link to the website]()
 ## Overview
 This project is a simplified HTML/CSS version of YouTube, a video-sharing platform where users can upload, view, rate, share, and comment on videos.
