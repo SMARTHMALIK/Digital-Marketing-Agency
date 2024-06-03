@@ -1,15 +1,19 @@
 # Digital Marketing Agency (HTML/CSS / JavaScript/Bootstap Version)
-[Direct link to the website]()
+[Direct link to the website](https://smarthmalik.github.io/Digital-Marketing-Agency/)
 ## Overview
-This project is a simplified HTML/CSS version of YouTube, a video-sharing platform where users can upload, view, rate, share, and comment on videos.
+This project is a simplified HTML/CSS/JavaScript/Bootstrap version of a Digital Marketing Agency website.
 
 ## Features
-- **Responsive layout**: The website is designed to adapt to different screen sizes.
-- **Video thumbnails**: Display thumbnails of uploaded videos on the homepage.
-- **Video playback**: Clicking on a thumbnail opens a modal with the video player.
-- **Navigation menu**: Users can navigate between different sections of the website using the menu.
-- **Search bar**: Users can search for videos by entering keywords in the search bar.
+- **Responsive layout:** The website is designed to adapt to different screen sizes.
+- **Service Sections:** Highlight various digital marketing services offered.
+- **Portfolio:** Showcase past projects and case studies.
+- **Cient Testimonials:** Display feedback from satisfied clients.
+- **Contact Form:** Allow potential clients to get in touch.
+- **Navigation menu:** Users can navigate between different sections of the website using the menu.
 
 ## Technologies Used
 - HTML
 - CSS
+- JavaScript
+- Bootstrap
+
