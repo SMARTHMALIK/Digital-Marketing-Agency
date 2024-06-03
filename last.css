@@ -42,6 +42,7 @@ p {
   margin-bottom: 60px;
   background-color: rgb(244, 244, 244);
   padding-top: 20px ;
+  width: 100%;
 }
 .title-growth{
   font-size: 20px;
